@@ -214,6 +214,7 @@ class Debugger
      */
     protected static function isPopup()
     {
+return false;
         $script = \Environment::get('script');
         // Not backend main or index, not frontend index.php and not frontend without anything.
         return
